@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/HR.css">
+    <title>HR Portal</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="c1">Welcome to Company HR Portal</h1>
+        <div class="nav-items">
+            <div class="c2">Employee Registration</div>
+            <div class="c2">Employee Directory</div>
+            <div class="c2">Contact Us</div>
+        </div>
+    </nav>
+    <div class="con">
+        <section class="s1">
+            <img src="./childstud.jpeg" alt="child img">
+            <h1 class="c3">Employee Registration</h1>
+            <h2 class="c4">Fill the below form to register as <i>employee</i></h2>
+        </section>
+        <form class="f1">
+            <label for="nm" class="name">Name:</label>
+            <input type="text" id="nm" placeholder="Name"><br>
+            <label for="email" class="name">Email:</label>
+            <input type="text" id="email" placeholder="Email"><br>
+            <label for="pass" class="password">Password:</label>
+            <input type="password" id="pass" placeholder="Password"><br>
+            <label for="age" class="age">Age:</label>
+            <input type="text" id="age" placeholder="Age"><br>
+
+            <label for="gender" class="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female <br>
+
+            <label for="mar" class="mar">Marital Status:</label>
+            <input type="checkbox" name="mar" id="mar" value="M">Married
+            <input type="checkbox" name="mar" id="mar" value="s">Single <br>
+
+            <label for="role" class="role">Select Role:</label>
+            <select name="role" id="role">
+                <option value="select">Select</option>
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="ce">Computer Engineer</option>
+                <option value="Dev">Developer</option>
+            </select><br>
+            <label for="jdate" class="jdate">Joining Date</label>
+            <input type="date" id="jdate" placeholder="Date"><br>
+            <button class="b">Submit</button>
+        </form>
+    </div>
+    <section class="emp">
+        <h1 class="emp-h">Employee Directory</h1>
+        <p class="emp-p">List of all registered employees.</p>
+        <table class="tab" border="1">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Employee Name</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>201</td>
+                    <td>KUNDAN</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>202</td>
+                    <td>pras</td>
+                    <td>Computer</td>
+                </tr>
+                <tr>
+                    <td>203</td>
+                    <td>Chhotu</td>
+                    <td>Engineer</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p class="par">You can contact us at pkhacker@gmail.com</p>
+    </div>
+    <footer class="foot">
+        <h2 class="cop">2023 Company Name</h2>
+    </footer>
+</body>
+</html>
