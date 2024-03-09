@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-color: #723F42;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 1024px;
+}
+.main-section{
+    height: 710px;
+    background: url(../img/pen.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_text{
+    max-width: 600px;
+}
+.main-heading{
+    font-size: 7rem;
+    letter-spacing: 3px;
+    margin: initial;
+}
+.sub-heading{
+    letter-spacing: 5px;
+}
+.link-1{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 8px;
+}
+.sec-1{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+}
+.img{
+    height: 500px;
+    width: 40%;
+    display: inline-block;
+}
+.txt{
+    height: 500px;
+    width: 58%;
+    padding-left: 10px;
+    vertical-align: top;
+    background-color: #AB9393;
+    display: inline-block;
+}
+.line{
+    margin: auto;
+}
+.mid{
+    margin-top: 30%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.box{
+    height: 310px;
+    width: 100%;
+    display: inline-block;
+}
+.box1{
+    height: 300px;
+    width: 49%;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.box2{
+    height: 300px;
+    width: 48%;
+    padding: 5px;
+    vertical-align: top;
+    margin-left: 5px;
+    display: inline-block;
+}
+.full{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.full1{
+    height: 400px;
+    width: 50%;
+    padding-left: 10px;
+    display: inline-block;
+    background-color:#B1363E;
+    position: relative;
+}
+.full2{
+    height: 300px;
+    width: 48%;
+    display: inline-block;
+    transform: translate(-8%,10%);
+}
+.num{
+    font-size: 200px;
+    border-bottom: 2px solid white;
+    margin: 0px;
+    line-height: 1;
+    margin-top: -105px;
+    display: inline-block;
+}
+.midd{
+    height: 150px;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+.c1{
+    margin-left: 45%;
+}
+.b{
+    /* border: 1px solid red; */
+    height: 720px;
+    width: 100%;
+    font-family: sans-serif;
+}
+.b1{
+    /* border: 1px solid red; */
+    height: 720px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #AB9393;
+}
+.b2{
+    /* border: 1px solid red; */
+    height: 720px;
+    width: 68%;
+    display: inline-block;
+}
+.b2-1{
+    /* border: 1px solid blue; */
+    height: 360px;
+    width: 100%;
+}
+.b2-2{
+    /* border: 1px solid blue; */
+    height: 360px;
+    width: 100%;
+}
+.b2-1-1{
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 69%;
+    display: inline-block;
+}
+.b2-1-2{
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 30%;
+    display: inline-block;
+}
+.b2-2-1{
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 30%;
+    display: inline-block;
+}
+.b2-2-2{
+    /* border: 1px solid black; */
+    height: 360px;
+    width: 68%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #B1363E;
+    padding-left: 10px;
+}
+.text-b{
+    font-size: 50px;
+    margin-top: 50%;
+    border-top: 2px solid white;
+    display: inline-block;
+}
+.con{
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 80%;
+    margin: 15px 80px ;
+}
+.con1{
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 29%;
+    display: inline-block;
+}
+.con2{
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 69%;
+    display: inline-block;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+.head-con{
+    border-top: 3px solid white;
+    margin-left: 130px;
+    margin-right: 150px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.lbox{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+}
+.lbox1 {
+    /* border: 1px solid red; */
+    width: 29%;
+    height: 600px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: dodgerblue;
+}
+.lbox2 {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 600px;
+    display: inline-block;
+}
+.aling{
+    border-top: 3px solid white;
+    margin-top: 200px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+.footer{
+    height: 50px;
+    padding-left: 40%;
+    background-color: #AB9393;
+}
+.pras{
+    color: red;
+}
